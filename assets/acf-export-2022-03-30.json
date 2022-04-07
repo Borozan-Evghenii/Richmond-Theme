@@ -1,0 +1,887 @@
+[
+    {
+        "key": "group_6243fcb35a8fc",
+        "title": "About",
+        "fields": [
+            {
+                "key": "field_6243e696b67ee",
+                "label": "Titlul pentru secția Despre noi",
+                "name": "about_heading",
+                "type": "text",
+                "instructions": "Antetul secției about",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Добро пожаловать в клубный дом Richmond",
+                "placeholder": "Antetul secției about",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243e8113b8b8",
+                "label": "Descriere pentru secția despre noi partea 1",
+                "name": "about_description_1th",
+                "type": "text",
+                "instructions": "Descrierea secției about primul paragraf",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Геометричные элементы парадного фасада, светлые и просторные помещения с 5-метровыми потолками,сразу отсылают к эстетике американского классического ар-деко.",
+                "placeholder": "Descrierea secției about primul paragraf",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243e86355758",
+                "label": "Descrierea pentru secția despre noi partea 2",
+                "name": "about_description_2th",
+                "type": "text",
+                "instructions": "Descrierea secției about al doilea paragraf",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Его влияние быстро охватило Америку начала 19 века, формировало образ жизни того периода, которй характеризуется бурным экономическим ростом, развитием технологий, машиностроенияи строительства культовых известнейших арх-сооружений,а также развитием киноискусства.",
+                "placeholder": "Descrierea secției about al doilea paragraf",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243e918a903d",
+                "label": "Numărul 1",
+                "name": "about_number_1th",
+                "type": "text",
+                "instructions": "Primul număr secția about",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 5,
+                "placeholder": 5,
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243e957a903e",
+                "label": "Numărul 2",
+                "name": "about_number_2th",
+                "type": "text",
+                "instructions": "Secția about al doilea număr",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 4,
+                "placeholder": 4,
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243e984a903f",
+                "label": "Numărul 3",
+                "name": "about_number_3th",
+                "type": "text",
+                "instructions": "Secția about al doilea număr",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 4,
+                "placeholder": 4,
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243e9ada9040",
+                "label": "Numărul 4",
+                "name": "about_number_4th",
+                "type": "text",
+                "instructions": "Al patrulea număr secția about",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 4,
+                "placeholder": 4,
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243e9d7a9041",
+                "label": "Descriere pentru numărul 1",
+                "name": "about_number_descr_1th",
+                "type": "text",
+                "instructions": "Descrierea pentru primul număr",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "высота потолков",
+                "placeholder": "высота потолков",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243ea09a9042",
+                "label": "Descriere pentru numărul 2",
+                "name": "about_number_descr_2th",
+                "type": "text",
+                "instructions": "Descrierea al doilea număr",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "зоны отдыха",
+                "placeholder": "зоны отдыха",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243ea7ba9043",
+                "label": "Descriere pentru numărul 3",
+                "name": "about_number_descr_3th",
+                "type": "text",
+                "instructions": "Descriere al treilea număr",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "жилых этажей",
+                "placeholder": "жилых этажей",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243eaa8a9044",
+                "label": "Descriere pentru numărul 4",
+                "name": "about_number_descr_4th",
+                "type": "text",
+                "instructions": "Descriere al patrulea număr",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "премиум апартаментов",
+                "placeholder": "премиум апартаментов",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "23"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_62443caf03dba",
+        "title": "Feature Slider",
+        "fields": [
+            {
+                "key": "field_62443cc1d6392",
+                "label": "Slide 1",
+                "name": "slide_1",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "uploadedTo",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_62443cdad6393",
+                "label": "Slide 2",
+                "name": "slide_2",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_62443ea2d6394",
+                "label": "Slide 3",
+                "name": "slide_3",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_62443ea5d6395",
+                "label": "Slide 4",
+                "name": "slide_4",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_62443ea8d6396",
+                "label": "Slide 5",
+                "name": "slide_5",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_62443eabd6397",
+                "label": "Slide 6",
+                "name": "slide_6",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_62443eaed6398",
+                "label": "Slide 7",
+                "name": "slide_7",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_62443eb1d6399",
+                "label": "Slide 8",
+                "name": "slide_8",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_62443eb3d639a",
+                "label": "Slide 9",
+                "name": "slide_9",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_62443ebed639b",
+                "label": "Slide 10",
+                "name": "slide_10",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "feature_slider"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_624305fbcca75",
+        "title": "Hero",
+        "fields": [
+            {
+                "key": "field_6243061760018",
+                "label": "Titlul Principal",
+                "name": "hero_heading",
+                "type": "text",
+                "instructions": "Titlul principal pe pagină",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Тихий дом в самом центре Москвы",
+                "placeholder": "Тихий дом в самом центре Москвы",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243e55b82ffa",
+                "label": "Descrierea pentru titlul principal",
+                "name": "hero_description",
+                "type": "text",
+                "instructions": "descrierea secției hero",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "ЦАО Пресненский район, Климашкина 16",
+                "placeholder": "Descrierea",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6244053078416",
+                "label": "Background pentru hero",
+                "name": "bg_hero",
+                "type": "image",
+                "instructions": "Background pentru secția hero",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ".jpg"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "23"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_6243fe7a923ef",
+        "title": "Location",
+        "fields": [
+            {
+                "key": "field_6243ebf58be9c",
+                "label": "Titlul pentru secția location",
+                "name": "location_heading",
+                "type": "text",
+                "instructions": "Heading pentru secția location",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Пресненский район",
+                "placeholder": "Пресненский район",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_624407a3647ff",
+                "label": "Map link",
+                "name": "map_link",
+                "type": "url",
+                "instructions": "Link la hartă",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_6244080464800",
+                            "operator": "==empty"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d170747.3801090487!2d27.66786575317384!3d48.0344209154869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb2958507a737e09e!2zNDjCsDAyJzAzLjkiTiAyN8KwNDgnMjguNiJF!5e0!3m2!1sru!2s!4v1648625526241!5m2!1sru!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+                "placeholder": ""
+            },
+            {
+                "key": "field_6243edb08be9d",
+                "label": "Descriere pentru titlul din secția location",
+                "name": "location_heading_descr",
+                "type": "text",
+                "instructions": "Descrierea de desup heading secția location",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Пресненский район",
+                "placeholder": "Пресненский район",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243ede88be9e",
+                "label": "Descriere pnetru secția location",
+                "name": "location_description",
+                "type": "text",
+                "instructions": "Descrierea secției Loaction",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Москва-Сити, Центр международной торговли, известные театры, музеи, лучшие рестораны — центр Москвы — центр притяжения успеха, вдохновения и силы.",
+                "placeholder": "Descrierea secției Loaction",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6244080464800",
+                "label": "Imaginea Map",
+                "name": "map_img",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_624407a3647ff",
+                            "operator": "==empty"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "23"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_6244110128866",
+        "title": "Oferta Apartamente",
+        "fields": [
+            {
+                "key": "field_6244111e7091e",
+                "label": "Description",
+                "name": "description",
+                "type": "textarea",
+                "instructions": "Descrierea camerei",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Со второго по шестой этаж гармонично спланированы апартаменты различной площади от 35 до 80 м2, жителям каждого из которых гарантирована приватность и комфорт.",
+                "placeholder": "Descrierea camerei",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_624411817091f",
+                "label": "Textu din buton",
+                "name": "button_text",
+                "type": "text",
+                "instructions": "Textul din buton",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Заказать звонок",
+                "placeholder": "Заказать звонок",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_624412023b0ea",
+                "label": "Imaginea postului",
+                "name": "post_img",
+                "type": "image",
+                "instructions": "Imaginea postării",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "uploadedTo",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_6243ff1f12f6e",
+        "title": "Style",
+        "fields": [
+            {
+                "key": "field_6243f5fa45bff",
+                "label": "Titlul pentru secția Stil",
+                "name": "style_heading",
+                "type": "text",
+                "instructions": "Heading pentru secția style",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Стиль",
+                "placeholder": "Heading pentru secția style",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243f67b45c00",
+                "label": "Descriere pentru secția stil partea 1",
+                "name": "style_descr_1th",
+                "type": "text",
+                "instructions": "Descriere prima parte",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Главный фасад здания исполнен в неоклассическом стилес выступающими деталями и большим количество окон.Это четко очерченная композиция из полированного гранитас элементами рустики, крупноформатного керамогранитаи декоративными элементами, выполненными на заказ.",
+                "placeholder": "Descriere prima parte",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6243f71645c01",
+                "label": "Descriere pentru secția stil partea 2",
+                "name": "style_descr_2th",
+                "type": "text",
+                "instructions": "Descriere a doua  parte",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "В основе интерьеров приоритетными являются эстетика,где видимая роскошь сочетается с комфортом, в неё идеально вписываются любые технические приборы и устройства.",
+                "placeholder": "Descriere a doua  parte",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "23"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
