@@ -221,43 +221,31 @@ get_header();
             Характеристики
         </h3>
         <div class="params-content">
+            
+        
+        <?php 
+        
+        $repeater = get_field('repeater');
+        if( !empty($repeater) ): 
+        echo $repeater
+        ?>
             <div class="params-content_item">
-                <h6 class="params-h6">Сервис</h6>
-                <p class="params-descr">Две зоны ресепшн 24/7</p>
+                <?php while( !empty($repeater)): the_row(); 
+                    $name = get_sub_field( 'name' );
+                    $descr = get_sub_field( 'description' );
+                ?>
+
+                    <h6 class="params-h6"> <?php  echo get_sub_field( 'name' ); ?> </h6>
+                    <p class="params-descr"> <?php echo $descr ?> </p>
+
+                <?php endwhile; ?>
             </div>
-            <div class="params-content_item">
-                <h6 class="params-h6">Паркинг</h6>
-                <p class="params-descr">Наземный, охраняемый паркинг</p>
-            </div>
-            <div class="params-content_item">
-                <h6 class="params-h6">Кондиционирование</h6>
-                <p class="params-descr">Центральная система кондиционирования</p>
-            </div>
-            <div class="params-content_item">
-                <h6 class="params-h6">Лифты</h6>
-                <p class="params-descr">Бесшумные премиальные лифты OTIS</p>
-            </div>
-            <div class="params-content_item">
-                <h6 class="params-h6">Территория</h6>
-                <p class="params-descr">Огороженная и&nbsp;охраняемая территория</p>
-            </div>
-            <div class="params-content_item">
-                <h6 class="params-h6">Остекление</h6>
-                <p class="params-descr">Высококачественные стеклопакеты
-                    с&nbsp;повышенным шумоизоляции</p>
-            </div>
-            <div class="params-content_item">
-                <h6 class="params-h6">Пожарная сигнализация</h6>
-                <p class="params-descr">Автоматическая система пожаротушения</p>
-            </div>
-            <div class="params-content_item">
-                <h6 class="params-h6">Вентиляция</h6>
-                <p class="params-descr">Система принудительной приточно-вытяжной вентиляции</p>
-            </div>
-            <div class="params-content_item">
-                <h6 class="params-h6">Система безопасности</h6>
-                <p class="params-descr">Соверменная система охраны</p>
-            </div>
+            <?php else: ?>
+            <h6 class="params-h6">Do not working </h6>
+        <?php endif; ?>
+
+
+
 
         </div>
     </div>
