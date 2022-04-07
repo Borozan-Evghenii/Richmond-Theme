@@ -224,18 +224,17 @@ get_header();
             
         
         <?php 
-        
-        $repeater = get_field('repeater');
-        if( !empty($repeater) ): 
+        echo have_rows('params_repeater');
+        if(  have_rows('params_repeater') ): 
         echo $repeater
         ?>
             <div class="params-content_item">
-                <?php while( !empty($repeater)): the_row(); 
+                <?php while( have_rows('params_repeater')): the_row(); 
                     $name = get_sub_field( 'name' );
                     $descr = get_sub_field( 'description' );
                 ?>
 
-                    <h6 class="params-h6"> <?php  echo get_sub_field( 'name' ); ?> </h6>
+                    <h6 class="params-h6"> <?php  echo $name; ?> </h6>
                     <p class="params-descr"> <?php echo $descr ?> </p>
 
                 <?php endwhile; ?>
