@@ -194,7 +194,7 @@ get_header();
 
 
         <!-- Slider Render -->
-        <?php $offer_images = get_field('offer_slider_img');
+            <?php $offer_images = get_field('offer_slider_img');
                 if ($offer_images): ?>
                 <!-- Swiper Container -->
                 <div class="offer-swiper">
@@ -202,7 +202,7 @@ get_header();
                 <!-- Render Slides -->
                             <?php foreach( $offer_images as $offer_image ): ?>
                                 <div class="offer-slide">
-                                    <img src="<?php echo esc_url($offer_image['url']); ?>" alt="<?php echo esc_url($offer_image['alt']); ?>">
+                                    <img src="<?php echo esc_url($offer_image); ?>" alt="<?php echo esc_attr($offer_image); ?>">
                                 </div>
                             <?php endforeach;  ?>
                 <!-- Render Slides -->
@@ -211,9 +211,15 @@ get_header();
                         <div class="offer-button-prev"></div>
                         <div class="offer-button-next"></div>
                 </div>
-                 </div>
-                <?php  endif; ?>
-                <!-- Slider Render -->
+            </div>
+        <?php  endif; ?>
+        <!-- Slider Render -->  
+
+
+
+
+        </div>
+
 </div>
         <div class="params-section section">
     <div class="params-container container">
@@ -223,27 +229,16 @@ get_header();
         <div class="params-content">
             
         
-        <?php 
-        echo have_rows('params_repeater');
-        if(  have_rows('params_repeater') ): 
-        echo $repeater
-        ?>
-            <div class="params-content_item">
-                <?php while( have_rows('params_repeater')): the_row(); 
-                    $name = get_sub_field( 'name' );
-                    $descr = get_sub_field( 'description' );
-                ?>
-
-                    <h6 class="params-h6"> <?php  echo $name; ?> </h6>
-                    <p class="params-descr"> <?php echo $descr ?> </p>
-
+        <?php if(  have_rows('params_repeater') ): ?>
+            <?php while( have_rows('params_repeater')): the_row(); 
+                $name = get_sub_field( 'name' );
+                $descr = get_sub_field( 'descr' );?>
+                    <div class="params-content_item">
+                        <h6 class="params-h6"> <?php  echo $name; ?> </h6>
+                        <p class="params-descr"> <?php  echo $descr; ?> </p>
+                    </div>
                 <?php endwhile; ?>
-            </div>
-            <?php else: ?>
-            <h6 class="params-h6">Do not working </h6>
         <?php endif; ?>
-
-
 
 
         </div>
@@ -262,7 +257,7 @@ get_header();
         <!-- Render Slides -->
                     <?php foreach( $Comfortimages as $Comfortimage ):?>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url($Comfortimage['url']); ?>" alt="">
+                                <img src="<?php echo esc_url($Comfortimage); ?>" alt="">
                             </div>
                     <?php endforeach; ?>
         <!-- Render Slides -->
@@ -280,24 +275,19 @@ get_header();
     <div class="parteners-container container">
         <h3 class="parteners-h3">Партнеры</h3>
         <div class="parteners-content">
-            <div class="parteners-content_item">
-                <img src="./img/parteners.png" alt="">
-            </div>
-            <div class="parteners-content_item">
-                <img src="./img/parteners2.png" alt="">
-            </div>
-            <div class="parteners-content_item">
-                <img src="./img/parteners3.png" alt="">
-            </div>
-            <div class="parteners-content_item">
-                <img src="./img/parteners4.png" alt="">
-            </div>
-            <div class="parteners-content_item">
-                <img src="./img/parteners5.png" alt="">
-            </div>
-            <div class="parteners-content_item">
-                <img src="./img/parteners6.png" alt="">
-            </div>
+            
+        <?php if(  have_rows('partener_repeater') ): ?>
+            <?php while( have_rows('partener_repeater')): the_row(); 
+                $image = get_sub_field( 'image' );?>
+                   <div class="parteners-content_item">
+                        <img src="<?php  echo $image; ?>" alt="">
+                    </div> 
+                <?php endwhile; ?>
+        <?php endif; ?>
+
+                        
+            
+
         </div>
     </div>
 </div>
