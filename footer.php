@@ -7,8 +7,8 @@
                 <?php echo get_field('contact_form_descr');?>
                 </p>
                 <form action="path">
-                    <input type="text" placeholder="Имя" class="name">
-                    <input type="email" placeholder="Телефон" class="email">
+                    	
+                    <?php echo apply_shortcodes( '[contact-form-7 id="118" title="Form"]' ); ?>
                     <div class="private">
                         <input type="checkbox" name="policy" id="">
                         <p class="private-text">
